@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Shashi & Co</title>
+    
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container nav-container">
+            <div style="display: flex; align-items: center; gap: 12px;">
+                <div style="width: 50px; height: 50px; border-radius: 50%; overflow: hidden; flex-shrink: 0;">
+                    <img src="images/WhatsApp Image 2026-03-24 at 9.29.57 PM.jpeg" alt="Shashidhar" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <a href="index.html" class="logo">Shashi <span class="text-gradient">& Co.</span></a>
+            </div>
+            <button class="mobile-menu-btn"><i class="ph ph-list"></i></button>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html" class="active">Contact</a>
+                <a href="contact.html" class="btn btn-primary" style="padding: 8px 16px;">Get Started</a>
+            </nav>
+        </div>
+    </header>
+
+    
+
+    <!-- Contact Form Section -->
+    <section class="contact-page" style="padding-top: 150px; min-height: 100vh;">
+        <div class="container">
+            <h1 class="section-title">Let's Build It!</h1>
+            <p class="section-subtitle">Fill up the form below or text me on WhatsApp. <br><strong style="color: #25d366;">Response within 10 mins.</strong></p>
+            
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="business">Business Type</label>
+                        <select id="business" class="form-control" required style="appearance: none;">
+                            <option value="">Select an option</option>
+                            <option value="gym">Gym / Fitness Center</option>
+                            <option value="real-estate">Real Estate</option>
+                            <option value="salon">Salon / Spa</option>
+                            <option value="hotel">Hotel / Restaurant</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="budget">Package/Budget</label>
+                        <select id="budget" class="form-control" required style="appearance: none;">
+                            <option value="">Select an option</option>
+                            <option value="starter">Starter - ₹2,999</option>
+                            <option value="business">Business - ₹4,999</option>
+                            <option value="premium">Premium - ₹7,999</option>
+                            <option value="custom">Custom Need</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message details (optional)</label>
+                        <textarea id="message" class="form-control" placeholder="Tell me more about what you want to achieve..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem; padding: 16px;">Send Request <i class="ph ph-paper-plane-tilt"></i></button>
+                    
+                    <div style="text-align: center; margin: 1.5rem 0;">
+                        <span style="color: var(--text-secondary); font-size: 0.9rem;">OR</span>
+                    </div>
+
+                    <a href="https://wa.me/7416642844" target="_blank" class="btn" style="width: 100%; background: #25d366; color: white; padding: 16px; font-size: 1.1rem;">
+                        <i class="ph ph-whatsapp-logo" style="font-size: 1.5rem;"></i> Direct WhatsApp Message
+                    </a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <h3 class="logo" style="margin-bottom: 1rem;">Shashi <span class="text-gradient">& Co.</span></h3>
+            <p>&copy; 2026 Shashi & Co. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/7416642844" target="_blank" class="whatsapp-float">
+        <i class="ph ph-whatsapp-logo"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
